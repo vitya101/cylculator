@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Кулькулятор/css/slider.css">
+    <link rel="stylesheet" href="/Кулькулятор/css/style.css">
+    <title>Кулькулятор</title>
+</head>
+<body>
+    
+    <h3>кулькублятор</h3>
+
+    <div class="inputs">
+
+        <div class="pricecont">
+
+            <label for="price"><p>Цена</p>
+                <input id="price" type="text" value="100000">
+            </label>
+
+            <div class="slidecontainer">
+                <input type="range" min="100000" max="10000000" value="100000" step="1000" class="slider" id="priceSlider">
+                <div class="pricelabel labels">
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="100000">100k</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="1000000">1m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="2000000">2m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="3000000">3m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="4000000">4m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="5000000">5m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="6000000">6m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="7000000">7m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="8000000">8m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="9000000">9m</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="priceLb Lb" data-lb="10000000">10m</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="termcont">
+
+            <label for="term"><p>Срок</p>
+                <input id="term" type="text" value="1">
+            </label>
+
+            <div class="slidecontainer">
+                <input type="range" min="1" max="60" value="1" step="1" class="slider" id="termSlider">
+                <div class="termlabel labels">
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="1">1</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="6">6</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="12">12</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="18">18</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="24">24</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="30">30</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="36">36</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="42">42</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="48">48</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="54">54</p>
+                    </div>
+                    <div class="contLb">
+                        <p class="termLb Lb" data-lb="60">60</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="pricelog">
+        <p>115000 руб./месяц</p>
+    </div>
+
+    <script src="/Кулькулятор/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
